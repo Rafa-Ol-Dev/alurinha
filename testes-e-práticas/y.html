@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>teste</title> 
+  <link rel="stylesheet" href="/css/reset.css">
+  
+  <style>
+    body {
+      margin: 0;
+    }
+    .flexContainer {
+      display: flex;
+      flex-flow: column; 
+      justify-content: space-between;
+      align-items: center;
+      height: 600px;   
+    }
+    .flexItem {
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    .red{
+      background-color: red;
+      color: darkblue;
+    } 
+
+    .blue{
+      background-color: aqua;
+      color: red;
+    }
+
+    .yellow{
+      background-color: yellow;
+      color: blueviolet;
+    }
+
+    .purple{
+      background-color: purple;
+      color: gold;
+    }
+
+  </style>
+    
+</head>
+<body>
+  <main class="flexContainer">        
+    <div class="flexItem firstRow red">red</div>
+    <div class="flexItem firstRow blue">blue</div>
+    <div class="flexItem firstRow yellow">yellow</div>
+    <div class="flexItem firstRow purple">purple</div>
+  </main>
+</body>
+</html>

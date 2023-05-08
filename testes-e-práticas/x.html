@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>teste</title> 
+  <link rel="stylesheet" href="/css/reset.css">
+
+  <style>
+    .videoSobre .container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .videoSobre-video {
+      flex-shrink: 0;
+    }
+    .videoSobre-sobre {
+      flex-flow: column;
+    }
+    .videoSobre-sobre h2 {
+      text-align: center;
+    }
+    .videoSobre-button {
+      margin-top: 130px;
+      height: 40px;
+      width: 100%;
+      font-weight: bold;
+      background-color: orangered;
+      color: black;
+      border: solid 1px gray;
+      border-radius: 10px;
+    }
+  </style>
+    
+</head>
+<body>
+  <section class="videoSobre">
+    <div class="container">
+        <iframe class="videoSobre-video" width="560" height="315" src="https://www.youtube.com/embed/bIl"></iframe>
+    
+        <div class="videoSobre-sobre">
+          <h2 class="videoSobre-sobre-title">Vantagens do Alurinha</h2>
+          <ul class="videoSobre-sobre-list">
+            <li class="videoSobre-sobre-item">Estude onde quiser</li>
+            <li class="videoSobre-sobre-item">Novos cursos todos os meses</li>
+            <li class="videoSobre-sobre-item">Cursos compatíveis com o mercado</li>
+          </ul>
+          <button class="videoSobre-button">Cadastre-se já</button>
+        </div>
+      </div>
+    </section>
+</body>
+</html>
